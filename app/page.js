@@ -1,4 +1,3 @@
-// ✅ app/page.js
 export default function Home() {
   return (
     <div className="min-h-screen py-10 px-6">
@@ -28,3 +27,4 @@ export default function Home() {
     </div>
   );
 }
+
