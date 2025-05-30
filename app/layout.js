@@ -2,7 +2,8 @@ import './globals.css';
 
 export const metadata = {
   title: 'Moja Omiljena',
-  description: 'Kombinezoni i haljine od viskoze za vrele letnje dane. Udobnost, ženstvenost i jednostavnost.',
+  description:
+    'Ženska garderoba od viskoze za leto. Kombinezoni i haljine koje se nose bez brushaltera. Udobnost, stil i jednostavnost.',
 };
 
 export default function RootLayout({ children }) {
@@ -12,9 +13,8 @@ export default function RootLayout({ children }) {
         <header className="text-center py-10">
           <h1 className="text-4xl font-bold text-pink-600 mb-2">Dobrodošla u "Moja Omiljena"</h1>
           <p className="max-w-2xl mx-auto text-lg">
-            "Moja Omiljena" je nastala iz potrebe za udobnošću, pre svega. Modeli su napravljeni od viskoze koja je
-            prirodni materijal i kako kažu – leti hladi dok pamuk ipak greje. Isprobaj i ti modele dizajnirane da se
-            nose bez brushaltera za vrele letnje dane. Neka neki od modela postane i Tvoj Omiljeni!
+            Kolekcija garderobe nastala iz potrebe za udobnošću i jednostavnošću. Svi modeli su od viskoze – prirodnog
+            materijala koji leti hladi. Nosi se bez brushaltera, za opušten, ženstven i autentičan letnji stil.
           </p>
         </header>
         <main className="max-w-4xl mx-auto px-4 py-8">
@@ -50,7 +50,32 @@ export default function RootLayout({ children }) {
               </a>
             </div>
           </section>
-          <section className="text-center">
+
+          {/* SEKCIJA: KRATKI KOMBINEZONI */}
+          <div id="kratki-kombinezoni" className="mt-20">
+            <h2 className="text-2xl font-bold text-center text-pink-600 mb-6">Kratki kombinezoni</h2>
+            <p className="text-center mb-10">Udobni, praktični i lagani modeli za leto.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-white rounded-xl shadow-md p-4">
+                <img src="/images/kombinezon-kratki1.jpg" alt="Kombinezon mint cvetni" className="rounded mb-4" />
+                <h3 className="font-semibold text-lg">Kombinezon cvetni mint</h3>
+                <p className="text-sm mb-2">Veličine: S, M</p>
+                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-4">
+                <img src="/images/kombinezon-kratki2.jpg" alt="Kombinezon žuti cvetni" className="rounded mb-4" />
+                <h3 className="font-semibold text-lg">Kombinezon žuti cvetni</h3>
+                <p className="text-sm mb-2">Veličine: S, M, L</p>
+                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
+              </div>
+            </div>
+          </div>
+
+          {/* DODAJU SE NAKNADNO: dugi kombinezoni i haljine */}
+          <div id="dugi-kombinezoni" className="mt-20"></div>
+          <div id="haljine" className="mt-20"></div>
+
+          <section className="text-center mt-20">
             <h2 className="text-2xl font-semibold text-pink-600 mb-2">Moja Omiljena</h2>
             <p className="mb-6">Dobrodošli u butik ženske garderobe sa stilom i dušom!</p>
             <a
@@ -62,30 +87,6 @@ export default function RootLayout({ children }) {
               @moja.omiljena
             </a>
           </section>
-
-          {/* SEKCIJA: KRATKI KOMBINEZONI */}
-          <div id="kratki-kombinezoni" className="mt-20">
-            <h2 className="text-2xl font-bold text-center text-pink-600 mb-6">Kratki kombinezoni</h2>
-            <p className="text-center mb-10">Udobni, praktični i lagani modeli za leto.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-white rounded-xl shadow-md p-4">
-                <img src="/images/kombinezon-kratki1.jpg" alt="Kratki kombinezon" className="rounded mb-4" />
-                <h3 className="font-semibold text-lg">Kombinezon cvetni mint</h3>
-                <p className="text-sm mb-2">Veličine: S, M</p>
-                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
-              </div>
-              <div className="bg-white rounded-xl shadow-md p-4">
-                <img src="/images/kombinezon-kratki2.jpg" alt="Kratki kombinezon" className="rounded mb-4" />
-                <h3 className="font-semibold text-lg">Kombinezon žuti cvetni</h3>
-                <p className="text-sm mb-2">Veličine: S, M, L</p>
-                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
-              </div>
-            </div>
-          </div>
-
-          {/* DODAJU SE NAKNADNO: dugi kombinezoni i haljine */}
-          <div id="dugi-kombinezoni" className="mt-20"></div>
-          <div id="haljine" className="mt-20"></div>
         </main>
       </body>
     </html>
