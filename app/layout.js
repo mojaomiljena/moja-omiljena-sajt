@@ -51,42 +51,31 @@ export default function RootLayout({ children }) {
             </div>
           </section>
 
-          {/* SEKCIJA: KRATKI KOMBINEZONI */}
-          <div id="kratki-kombinezoni" className="mt-20">
-            <h2 className="text-2xl font-bold text-center text-pink-600 mb-6">Kratki kombinezoni</h2>
-            <p className="text-center mb-10">Udobni, praktični i lagani modeli za leto.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="bg-white rounded-xl shadow-md p-4">
-                <img src="/images/kombinezon-kratki1.jpg" alt="Kombinezon mint cvetni" className="rounded mb-4" />
-                <h3 className="font-semibold text-lg">Kombinezon cvetni mint</h3>
-                <p className="text-sm mb-2">Veličine: S, M</p>
-                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
+          <div id="kratki-kombinezoni" className="mt-20"></div>
+          <div id="dugi-kombinezoni" className="mt-20"></div>
+
+          {/* Galerija haljina */}
+          <div id="haljine" className="mt-20">
+            <h2 className="text-2xl font-bold text-center text-pink-600 mb-8">Haljine</h2>
+            <div className="grid grid-cols-1 gap-10">
+              <div>
+                <img src="/haljina1.jpg" alt="Haljina 1" className="rounded-xl shadow-md mb-2" />
+                <p className="text-center font-semibold">Crna haljina • 3.200 RSD • Veličine: S, M, L</p>
               </div>
-              <div className="bg-white rounded-xl shadow-md p-4">
-                <img src="/images/kombinezon-kratki2.jpg" alt="Kombinezon žuti cvetni" className="rounded mb-4" />
-                <h3 className="font-semibold text-lg">Kombinezon žuti cvetni</h3>
-                <p className="text-sm mb-2">Veličine: S, M, L</p>
-                <p className="text-sm text-pink-600 font-bold">3.200 RSD</p>
+              <div>
+                <img src="/haljina2.jpg" alt="Haljina 2" className="rounded-xl shadow-md mb-2" />
+                <p className="text-center font-semibold">Crna haljina sa izrezom • 3.400 RSD • Veličine: S, M</p>
+              </div>
+              <div>
+                <img src="/haljina3.jpg" alt="Haljina 3" className="rounded-xl shadow-md mb-2" />
+                <p className="text-center font-semibold">Haljina sa šeširom • 3.500 RSD • Veličine: M, L</p>
+              </div>
+              <div>
+                <img src="/haljina4.jpg" alt="Haljina 4" className="rounded-xl shadow-md mb-2" />
+                <p className="text-center font-semibold">Haljina sa tankim bretelama • 3.200 RSD • Veličine: S, M, L</p>
               </div>
             </div>
           </div>
-
-          {/* DODAJU SE NAKNADNO: dugi kombinezoni i haljine */}
-          <div id="dugi-kombinezoni" className="mt-20"></div>
-          <div id="haljine" className="mt-20"></div>
-
-          <section className="text-center mt-20">
-            <h2 className="text-2xl font-semibold text-pink-600 mb-2">Moja Omiljena</h2>
-            <p className="mb-6">Dobrodošli u butik ženske garderobe sa stilom i dušom!</p>
-            <a
-              href="https://www.instagram.com/moja.omiljena"
-              className="text-pink-500 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @moja.omiljena
-            </a>
-          </section>
         </main>
       </body>
     </html>
