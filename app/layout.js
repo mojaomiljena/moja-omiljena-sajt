@@ -1,4 +1,5 @@
 import './globals.css';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Moja Omiljena',
@@ -22,92 +23,34 @@ export default function RootLayout({ children }) {
             <div className="bg-white p-6 rounded-2xl shadow-md">
               <h2 className="text-xl font-semibold text-pink-600 mb-2">Kratki kombinezoni</h2>
               <p className="mb-4">Savršeni za gradske šetnje i leto u pokretu.</p>
-              <a
-                href="#kratki-kombinezoni"
+              <Link
+                href="/kratki-kombinezoni"
                 className="inline-block bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-full"
               >
                 Pogledaj kolekciju
-              </a>
+              </Link>
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-md">
               <h2 className="text-xl font-semibold text-pink-600 mb-2">Dugi kombinezoni</h2>
               <p className="mb-4">Elegancija i udobnost u jednom komadu odeće.</p>
-              <a
-                href="#dugi-kombinezoni"
+              <Link
+                href="/dugi-kombinezoni"
                 className="inline-block bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-full"
               >
                 Pogledaj kolekciju
-              </a>
+              </Link>
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-md">
               <h2 className="text-xl font-semibold text-pink-600 mb-2">Haljine</h2>
               <p className="mb-4">Za svaki dan i posebne prilike – tvoja omiljena haljina!</p>
-              <a
-                href="#haljine"
+              <Link
+                href="/haljine"
                 className="inline-block bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-full"
               >
                 Pogledaj kolekciju
-              </a>
+              </Link>
             </div>
           </section>
-
-          <div id="kratki-kombinezoni" className="mt-20"></div>
-          <div id="dugi-kombinezoni" className="mt-20"></div>
-
-          {/* Galerija haljina */}
-          <div id="haljine" className="mt-20">
-            <h2 className="text-2xl font-bold text-center text-pink-600 mb-8">Haljine</h2>
-            <div className="grid grid-cols-1 gap-10">
-              <div>
-                <img src="/haljina1.jpg" alt="Haljina 1" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina2.jpg" alt="Haljina 2" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina3.jpg" alt="Haljina 3" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina4.jpg" alt="Haljina 4" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.200 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina5.jpg" alt="Haljina 5" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina6.jpg" alt="Haljina 6" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina7.jpg" alt="Haljina 7" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina8.jpg" alt="Haljina 8" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina9.jpg" alt="Haljina 9" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina10.jpg" alt="Haljina 10" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina11.jpg" alt="Haljina 11" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
-              </div>
-              <div>
-                <img src="/haljina12.jpg" alt="Haljina 12" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
-              </div>
-            </div>
-          </div>
         </main>
       </body>
     </html>
