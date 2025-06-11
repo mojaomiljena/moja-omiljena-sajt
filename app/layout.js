@@ -60,51 +60,51 @@ export default function RootLayout({ children }) {
             <div className="grid grid-cols-1 gap-10">
               <div>
                 <img src="/haljina1.jpg" alt="Haljina 1" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Crna haljina bez bretela • 3.500 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina2.jpg" alt="Haljina 2" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa izrezom • 3.400 RSD • Veličine: S, M</p>
+                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina3.jpg" alt="Haljina 3" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa šeširom • 3.500 RSD • Veličine: M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina4.jpg" alt="Haljina 4" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa tankim bretelama • 3.200 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.200 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina5.jpg" alt="Haljina 5" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina crna gola leđa • 3.400 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina6.jpg" alt="Haljina 6" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina gola leđa plaža • 3.400 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.400 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina7.jpg" alt="Haljina 7" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa otvorenim leđima • 3.500 RSD • Veličine: S, M</p>
+                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina8.jpg" alt="Haljina 8" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Crna elegantna haljina • 3.600 RSD • Veličine: M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina9.jpg" alt="Haljina 9" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa slamnatim šeširom • 3.500 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina10.jpg" alt="Haljina 10" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa šeširom i pojasom • 3.600 RSD • Veličine: S, M</p>
+                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina11.jpg" alt="Haljina 11" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina crna gola leđa – dvorište • 3.500 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.500 RSD • Veličine: S, M, L</p>
               </div>
               <div>
                 <img src="/haljina12.jpg" alt="Haljina 12" className="rounded-xl shadow-md mb-2" />
-                <p className="text-center font-semibold">Haljina sa šeširom u prirodi • 3.600 RSD • Veličine: S, M, L</p>
+                <p className="text-center font-semibold">Haljina • 3.600 RSD • Veličine: S, M, L</p>
               </div>
             </div>
           </div>
